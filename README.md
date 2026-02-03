@@ -10,7 +10,7 @@ A high-performance, privacy-focused AI assistant capable of answering questions 
 
 ---
 
-## ⚡ Features
+## Features
 
 - **Offline Inference:** Runs Llama 3 locally using GPU acceleration (`n_gpu_layers=-1`).
 - **RAG Architecture:** Uses **FAISS** and **HuggingFace Embeddings** to retrieve relevant context from PDFs.
