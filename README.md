@@ -31,23 +31,25 @@ Since the model and document files are large or sensitive, they are **not includ
 **2. Installation (Linux / WSL):**
 
 ```bash
-# 1. Clone and Enter Project
+ 1. Clone and Enter Project:
 git clone [https://github.com/your_user/your_repository.git](https://github.com/your_user/your_repository.git)
 cd your_repository
 
-# 2. Create and Activate Virtual Environment
+
+ 2. Create and Activate Virtual Environment:
 python3 -m venv venv
 source venv/bin/activate
 
-# 3. Install Dependencies
+
+ 3. Install Dependencies:
 pip install -r requirements.txt
 
-# 4. Install Llama with GPU Support 
+
+ 4. Install Llama with GPU Support:
 pip install llama-cpp-python \
   --extra-index-url [https://abetlen.github.io/llama-cpp-python/whl/cu124](https://abetlen.github.io/llama-cpp-python/whl/cu124)
 
-**5. Run the App:**
 
-```bash
+5. Run the App:
 python3 app.py
 # Access at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
