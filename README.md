@@ -45,3 +45,9 @@ pip install -r requirements.txt
 # 4. Install Llama with GPU Support 
 pip install llama-cpp-python \
   --extra-index-url [https://abetlen.github.io/llama-cpp-python/whl/cu124](https://abetlen.github.io/llama-cpp-python/whl/cu124)
+
+**5. Run the App:**
+
+```bash
+python3 app.py
+# Access at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
